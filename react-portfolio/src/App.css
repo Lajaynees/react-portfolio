@@ -86,7 +86,7 @@ border-bottom: 0.1875rem solid var(--primary-orange) ;
 }
 
 .btn-main-offer {
-border: 1px solid var(--primary-orange);
+border: 0.1875rem solid var(--primary-orange);
 text-transform: uppercase;
 border-radius: 0;
 padding: 0.625remp 0.75rem 0.75rem 0.75rem;
@@ -95,10 +95,13 @@ margin: 3rem;
 font-family: 'Roboto', sans-serif;
 }
 
-.tsparticles-canvas-el {
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
-  z-index: 1;
+.profile-picture {
+  width:16rem;
+  border-radius: 50%;
+  padding: .3rem;
+  border: 0.1875rem solid var(--primary-gold);
+}
+.about-me-heading {
+  color: var(--primary-gold);
 }
 
