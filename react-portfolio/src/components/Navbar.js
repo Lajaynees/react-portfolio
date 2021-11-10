@@ -1,6 +1,8 @@
 import React from "react"
 import logo from "../logo1.png"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBarsSort} from "@fortawesome/react-fontawesome";
+
 
 const Navbar = () => {
     return (
